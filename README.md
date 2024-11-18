@@ -8,7 +8,7 @@ Key features of this repository include:
 - Efficient model inference, suitable for both C++ and Python environments, especially where Python's performance limitations might be a concern.
 
 ## Setup
-- git clone --recurse-submodules <this-repository-url>
+- use ```git clone --recurse-submodules``` to clone this repository
 - Change the activation function from sigmoid to relu in L1DeepMETv2/model/net.py by toggling the comments for lines 29 and 30
 - Create a conda environment and install pybind11 ``` conda create -n "myenv"``` followed by ```pip install pybind11```
 - Follow the instructions in the README in L1DeepMETv2 to produce a dataset in L1DeepMETv2/data_ttbar in the conda environment
