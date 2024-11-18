@@ -1,5 +1,5 @@
 # L1DeepMetv2-GoldenC: A C++ and Python-Compatible Implementation of the L1DeepMETv2 Model for MET Regression
-This repository provides a C++ implementation of the L1DeepMETv2 [L1DeepMETv2](https://github.com/DeepMETv2/L1DeepMETv2/tree/3f6ea5777704cfe7ed64f847f9be8735594484cc) model, originally developed in PyTorch as part of the DeepMETv2 project. The L1DeepMETv2 model leverages Edge Convolutional Networks (EdgeConv) to regress MET (Missing Transverse Energy) from L1Puppi candidates in particle physics data. In addition to a high-performance C++ implementation, this "Golden C" version offers Python bindings, allowing seamless integration of the C++ model as a Python module.
+This repository provides a C++ implementation of the [L1DeepMETv2](https://github.com/DeepMETv2/L1DeepMETv2/tree/3f6ea5777704cfe7ed64f847f9be8735594484cc) model, originally developed in PyTorch. The L1DeepMETv2 model leverages Edge Convolutional Networks (EdgeConv) to regress MET (Missing Transverse Energy) from L1Puppi candidates in particle physics data. In addition to a high-performance C++ implementation, this "Golden C" version offers Python bindings, allowing seamless integration of the C++ model as a Python module.
 
 Key features of this repository include:
 
