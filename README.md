@@ -16,4 +16,4 @@ Key features of this repository include:
 
 ## Development
 - Use the evaluate.ipynb notebook as a tutorial to load both the Pytorch and C++ Binding models in a python notebook environment. 
-- This tutorial uses a random test data point from the test dataloader to run inference on both the pytorch and c++ model. Feel to run the entire dataloader or your own custom dataloader
+- This tutorial uses a random test data point from the test dataloader to run inference on both the pytorch and c++ model. Feel free to run the entire dataloader or your own custom dataloader
