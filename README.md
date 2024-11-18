@@ -11,9 +11,9 @@ Key features of this repository include:
 - use ```git clone --recurse-submodules``` to clone this repository
 - Change the activation function from sigmoid to relu in L1DeepMETv2/model/net.py by toggling the comments for lines 29 and 30
 - Create a conda environment and install pybind11 ``` conda create -n "myenv"``` followed by ```pip install pybind11```
-- Follow the instructions in the README in L1DeepMETv2 to produce a dataset in L1DeepMETv2/data_ttbar in the conda environment
-- Run thew following build command to create the CPython Binding: ```g++ -O3 -Wall -shared -std=c++17 -fPIC `python3 -m pybind11 --includes` binding.cpp GraphMetNetwork.cpp -o graphmetnetwork`python3-config --extension-suffix```
+- Follow the [README](https://github.com/DeepMETv2/L1DeepMETv2/tree/3f6ea5777704cfe7ed64f847f9be8735594484cc#) for L1DeepMETv2 to produce a dataset in L1DeepMETv2/data_ttbar in the conda environment
+- Run the following build command to create the CPython Binding: ```g++ -O3 -Wall -shared -std=c++17 -fPIC `python3 -m pybind11 --includes` binding.cpp GraphMetNetwork.cpp -o graphmetnetwork`python3-config --extension-suffix```
 
 ## Development
 - Use the evaluate.ipynb notebook as a tutorial to load both the Pytorch and C++ Binding models in a python notebook environment. 
-- This tutorial uses a random test data point from the test dataloader to run inference on both the pytorch and c++ model.
+- This tutorial uses a random test data point from the test dataloader to run inference on both the pytorch and c++ model. Feel to run the entire dataloader or your own custom dataloader
